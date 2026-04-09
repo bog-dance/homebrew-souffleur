@@ -5,7 +5,7 @@ class Souffleur < Formula
 
   on_arm do
     url "https://github.com/bog-dance/souffleur/releases/download/v1.3.0/souffleur-1.3.0.tar.gz"
-    sha256 "a4c623911f4782c971be1cdfa24d71420151c27353b5e9dbe3ca09af1bde94c0"
+    sha256 "94ddeddd8d2d3e4cc9c0ed2d09df759f06ef21651cf760142ec361e1078cbee8"
   end
 
   def install
