@@ -1,11 +1,11 @@
 class Souffleur < Formula
   desc "CLI tool for audio recording and transcription"
   homepage "https://github.com/bog-dance/souffleur"
-  version "1.3.2"
+  version "1.4.0"
 
   on_arm do
-    url "https://github.com/bog-dance/souffleur/releases/download/v1.3.2/souffleur-1.3.2.tar.gz"
-    sha256 "7774565a1fda4b77a1b49fcb44cd2270eab59948120f955280cd8d791258a5ef"
+    url "https://github.com/bog-dance/souffleur/releases/download/v1.4.0/souffleur-1.4.0.tar.gz"
+    sha256 "3fbf03e1a7fb1d0ba1081813127bf05300d9faaa0af275f0cb77593e4323fc6b"
   end
 
   def install
@@ -13,6 +13,7 @@ class Souffleur < Formula
     bin.install "souffleur_sofl.bundle"
     bin.install "swift-crypto_Crypto.bundle"
     bin.install "swift-transformers_Hub.bundle"
+    bin.install "FluidAudio_FluidAudio.bundle"
   end
 
   test do
