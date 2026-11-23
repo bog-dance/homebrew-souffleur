@@ -1,11 +1,11 @@
 class Souffleur < Formula
   desc "CLI tool for audio recording and transcription"
   homepage "https://github.com/bog-dance/souffleur"
-  version "1.7.3"
+  version "1.7.4"
 
   on_arm do
-    url "https://github.com/bog-dance/souffleur/releases/download/v1.7.3/souffleur-1.7.3.tar.gz"
-    sha256 "73d4a077054efeeb95ba86ce65f0dc59e80cd0af6548500a18ac44e810e8f8c6"
+    url "https://github.com/bog-dance/souffleur/releases/download/v1.7.4/souffleur-1.7.4.tar.gz"
+    sha256 "071242a3540961d687cf5140ef1371b9c5d148b2cf0399da6cc79749ae2ba055"
   end
 
   def install
